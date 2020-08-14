@@ -5,6 +5,7 @@ body {
   
 }
 
+
 /** HEADER **/
 
 #header-nav .container {
@@ -29,35 +30,60 @@ body {
   margin-bottom: 0;
   line-height: .75;
 }
+
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+  font-style: bold;
+  font-size: 30px;
+
 }
+
  h2,h3{
 
   color: black;
-  background-color: green;
+  background-color:   #00FF00;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
   text-align: center;
 
+  
+ }
+
+ p {
+  text-align: left;
+  margin-left: 10px;
 
  }
+ 
+
+
+ 
 
 
 .container {
 
 
-background-color: red;
+background-color: #FF0000;
 width: 100%;
 
 }
 
 div{
-  color: black;
+  color: #000000;
   font-size: 16px;
 
+  
+
 }
 
-@media (min-width: 1200px){
+ li a  {
+  background-color: #FF0000;
+  color: white;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  
 
+}
  
 
-}
